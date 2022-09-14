@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ title }}</h1>
-    <p>{{ greeting }}</p>
+    <p>{{ greeting() }}</p>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ data(){
 },
 methods:{
   greeting:function(){
-    return 'sahoooo!!'
+    return 'sahoooo!!!'
   }
 }
 }
